@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+:root{
+
+    --cor1: #489b2e;
+    --cor2: #9700a5;
+    --cor3: #fcf5f1;
+    --cor4: #262423;
+    --fontemine: "VT323", monospace;
+    --fontepadrao: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body{
+    background-color: black;
+    color: var(--cor3);
+    font-family: var(--fontemine);
+}
+
+header {
+    background-color: var(--cor4);
+    color: var(--cor3);
+    font-family: var(--fontemine);
+    font-size: 2em;
+    text-align: center;
+    padding: 2vh;
+}
+
+header > p {
+    font-size: 1em;
+}
+
+nav.menu {
+    border-radius: 8px;
+    background-color: var(--cor4);
+    color: var(--cor3);
+    display: flex;
+    justify-content: center;
+}
+
+nav > a {
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 5px;
+    margin: 16px;
+    color: var(--cor3);
+    font-family: var(--fontemine);
+    border-radius: 8px;
+    transition-duration: 1s;
+}
+
+nav > a:hover{
+    color: var(--cor1);
+    text-decoration: none;
+}
+
+#storymode:hover{
+    text-decoration: none;
+    color: var(--cor2);
+}
+
+a{
+    text-decoration: none;
+    color: var(--cor3);
+}
+
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+section.nascimentoimg{
+    background-image: url("imagens/notch.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 573px;
+    border-radius: 8px;
+}
+
+#nascimentoh1{
+    color: var(--cor3);
+    font-family: var(--fontemine);
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 250px;
+}
+
+#nascimento {
+    color: var(--cor3);
+    font-family: var(--fontemine);
+    font-size: 1.5em;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.747);
+    padding: 10px;
+}
+
+section.lancamentoimg{
+    background-image: url("imagens/minecraft-deitado-logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 546px;
+    border-radius: 8px;
+}
+
+#lancamentoh1{
+    color: var(--cor3);
+    font-family: var(--fontemine);
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 250px;
+}
+
+#lancamento{
+    color: var(--cor3);
+    font-family: var(--fontemine);
+    font-size: 1.5em;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.603);
+    padding: 10px;
+}
+
+section.fimimg{
+    background-image: url("imagens/theend.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 690px;
+    border-radius: 8px;
+}
+
+#fimh1 {
+    padding: 10px;
+    color: var(--cor3);
+    font-family: var(--fontemine);
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 350px;
+  }
+#fim{
+    color: var(--cor3);
+    font-family: var(--fontemine);
+    font-size: 1.5em;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.603);
+    padding: 10px;
+}
+
+footer{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.github:hover{
+    text-decoration: underline;
+    color: rgb(199, 0, 199);
+    transition: 1s;
+}
