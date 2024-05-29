@@ -33,7 +33,7 @@ header > p {
 }
 
 nav.menu {
-    border-radius: 8px;
+    border-radius: 0px 0px 8px 8px;
     background-color: var(--cor4);
     color: var(--cor3);
     display: flex;
