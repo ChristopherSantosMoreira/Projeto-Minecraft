@@ -170,12 +170,12 @@ footer{
 
 
 section.storymodeimg {
-    background-image: url("imagens/");
+    background-image: url("imagens/minecraftstorymode.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    height: 690px;
+    height: 646px;
     border-radius: 8px;
 }
 
